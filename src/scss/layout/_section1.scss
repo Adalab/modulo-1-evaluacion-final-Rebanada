@@ -1,0 +1,57 @@
+.main {
+  display: flexbox;
+}
+
+.rectangle {
+}
+.insomnia{
+        width: 90px;
+        height: 30px;
+        margin: 0 200px 1px 0;
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.14;
+        letter-spacing: normal;
+        color: #8ccbea;
+} 
+
+.looking{
+    width: 290px;
+  height: 60px;
+  margin: 1px 0 15px;
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: black;
+}
+
+.donec{
+    width: 290px;
+  height: 120px;
+  margin: 15px 0 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+.go {
+  width: 76px;
+  font-size: 20px;
+  height: 45px;
+  color: #f26002;
+  text-align: center;
+  border-radius: 22.5px;
+  border: solid 2px #f26002;
+  font-family: "Roboto", sans-serif;
+}
