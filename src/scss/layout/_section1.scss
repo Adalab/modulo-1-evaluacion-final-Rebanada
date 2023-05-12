@@ -1,9 +1,11 @@
-.main {
-  display: flexbox;
+.section_1{
+  display: flex;
+  flex-direction: column;
+align-items: center;
 }
 
-.rectangle {
-}
+
+
 .insomnia{
         width: 90px;
         height: 30px;
