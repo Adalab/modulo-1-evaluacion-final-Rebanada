@@ -1,10 +1,12 @@
 .hero {
-  height: 420px;
-  display: flex;
-  align-items: flex-end;
+  height: 568px;
+ 
+  align-items: center;
   background-image: url("../images/cover.jpg");
   background-size: cover;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
+  padding: 20px;
+  
 }
 
 .title {
@@ -12,25 +14,26 @@
   height: 110px;
   font-family: "Roboto Slab", serif;
   font-size: 42px;
-  display: flex;
+  display: block;
   align-items: center;
   text-align: center;
   color: white;
-  z-index: 50;
+  position: absolute;
+  top: 50%;
 }
 
 .subtitle {
-  display: flex;
+  display: inline-block;
   color: white;
   width: 290px;
   height: 21px;
-  margin: 10px 0 45px 15px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
+  align-items: center;
+  position: absolute;
+  top: 67%;
+
 }
 
 .bars {
@@ -48,6 +51,4 @@
 
 .hamburger{
   position: fixed;
-
- 
 }
