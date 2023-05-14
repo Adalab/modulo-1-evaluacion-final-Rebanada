@@ -1,45 +1,43 @@
-.footer{
-    background-color: #304268;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+.footer {
+  background-color: #304268;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.list_item{
-    width: 73px;
-    height: 150px;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 1.88;
-    color: white;
-    text-decoration: none;
-  
-  } 
-  .five_items{
-align-items: center;
-text-align: center;
-  }
+.list_item1 {
+  width: 73px;
+  height: 150px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.88;
+  color: white;
+  text-decoration: none;
+}
 
-  .three_items{
+.list_item2 {
+  width: 73px;
+  height: 150px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.88;
+  color: white;
+  text-decoration: none;
+}
 
-  }
+.we-components {
+  width: 290px;
+  height: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: white;
+}
 
-  .we-components {
-    width: 290px;
-    height: 30px;
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    text-align: center;
-    color: white;
-
-  }
-  
-  .we-components .Text-Style-3 {
-    font-family: ZapfDingbatsITC;
-    color: #f26002;
-    
-  } 
-  .year{
-    color: white;
-    font-family: "Roboto", sans-serif;
-  }
+.we-components .Text-Style-3 {
+  font-family: ZapfDingbatsITC;
+  color: #f26002;
+}
+.year {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}

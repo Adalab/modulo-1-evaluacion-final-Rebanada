@@ -46,9 +46,26 @@
   align-items: center;
   justify-content: center;
 
-
 }
 
 .hamburger{
   position: fixed;
+}
+
+.down{
+  width: 15px;
+  height: 15px;
+  margin: 45px 122px 0 94px;
+  padding: 18px 12px 15.3px 13px;
+  border-radius: 70%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.down_2{
+  position: absolute;
+  top: 70%;
+  left: 7%;
 }
