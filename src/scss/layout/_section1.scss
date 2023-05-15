@@ -31,7 +31,7 @@ align-items: center;
   font-style: normal;
   line-height: 1.25;
   letter-spacing: normal;
-  color: black;
+  color: $color-primary;
 }
 
 .donec{
@@ -51,11 +51,34 @@ align-items: center;
   width: 76px;
   font-size: 20px;
   height: 45px;
-  color: #f26002;
+  color: $color-secondary;
   display: flex;
   border-radius: 22.5px;
-  border: solid 2px #f26002;
+  border: solid 2px $color-secondary;
   font-family: "Roboto", sans-serif;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (min-width:768px) { 
+  .section_1{
+    display: flex;
+    	width: 768px;
+    	height: 330px;
+  }
+  .insomnia{
+    display: inline;
+    width: 216px;
+    height: 30px;
+  }
+  .looking{
+    width: 690px;
+    height: 45px;
+
+  }
+  .donec{
+    width: 690px;
+    height: 60px;
+
+  }
 }

@@ -1,8 +1,9 @@
-.footer {
+.footer{
   background-color: #304268;
   display: flex;
   flex-direction: column;
   text-align: center;
+
 }
 
 .list_item1 {
@@ -35,9 +36,39 @@
 
 .we-components .Text-Style-3 {
   font-family: ZapfDingbatsITC;
-  color: #f26002;
+  color: $color-secondary;
 }
 .year {
   color: white;
   font-family: "Roboto", sans-serif;
 }
+
+@media screen and (min-width:768px) { 
+.footer{
+  width: 768px;
+  height: 240px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+
+}
+.we-components{
+  text-align: left;
+ 
+  
+}
+.year{
+  text-align:left;
+  
+}
+.five_items{
+text-align: center;
+  
+}
+.three_items{
+  text-align:right;
+  
+  
+}
+}
+

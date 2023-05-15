@@ -17,7 +17,7 @@
   margin: 0 0 45px;
   font-family: "Roboto Slab", serif;
   font-size: 24px;
-  color: black;
+  color: $color-primary;
 }
 .super_text {
 
@@ -26,7 +26,7 @@
   font-family: "Roboto Slab", serif;
   font-size: 18px;
   text-align: center;
-  color: black;
+  color: $color-primary;
 }
 
 .text {
@@ -38,7 +38,7 @@
   line-height: 1.67;
   letter-spacing: normal;
   text-align: center;
-  color: black;
+  color: $color-primary;
 }
 
 .more_reasons {
@@ -50,6 +50,19 @@
   font-family: "Roboto", sans-serif;
   border-radius: 22.5px;
   color: white;
-  background-color: #f26002;
+  background-color: $color-secondary;
+
+}
+
+@media screen and (min-width:768px) { 
+.section_2{
+  width: 768px;
+  height: 397px;
+  display: grid;
+grid-template-columns: repeat(3, 210px);
+  grid-template-rows: repeat(3, 100px);
+align-items: center;
+justify-items: center;
+ }
 
 }
