@@ -1,43 +1,32 @@
 .hero {
-  height: 568px;
- 
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
   background-image: url("../images/cover.jpg");
   background-size: cover;
   margin-bottom: 30px;
   padding: 20px;
-  
 }
 
 .title {
-  width: 290px;
-  height: 110px;
   font-family: "Roboto Slab", serif;
   font-size: 42px;
-  display: block;
-  align-items: center;
   text-align: center;
   color: white;
-  position: absolute;
-  top: 50%;
+  display: flex;
+  margin-bottom: 10px;
 }
 
 .subtitle {
-  display: inline-block;
   color: white;
-  width: 290px;
-  height: 21px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  text-align: center;
-  align-items: center;
-  position: absolute;
-  top: 67%;
-
 }
 
 .bars {
-  
   display: flex;
   width: 30px;
   height: 30px;
@@ -45,14 +34,13 @@
   background-color: #0271bc;
   align-items: center;
   justify-content: center;
-
 }
 
-.hamburger{
+.hamburger {
   position: fixed;
 }
 
-.down{
+.down_2 {
   width: 15px;
   height: 15px;
   margin: 45px 122px 0 94px;
@@ -64,38 +52,51 @@
   justify-content: center;
 }
 
-.down_2{
-  position: absolute;
-  top: 70%;
-  left: 7%;
-}
-
-@media screen and (min-width:768px) { 
+@media screen and (min-width: 768px) {
   .hero {
     display: flex;
-    	width: 768px;
-    	height: 768px;
-	}
-  .title{
-   
-    width: 690px;
-    height: 212px;
   }
-  .subtitle{
-    display: flex;
-    width: 360px;
-    height: 32px;
-   text-align: center;
+  .title {
+    font-size: 80px;
   }
-  .down{
+  .subtitle {
     display: flex;
-align-content: center;
+    font-size: 24px;
+    text-align: center;
+  }
+  .down {
+    display: flex;
+    align-content: center;
     align-items: center;
     justify-content: center;
   }
-  .down_2{
+  .down_2 {
     display: flex;
-  align-content: center;
+    align-content: center;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero {
+    display: flex;
+  }
+  .title {
+    font-size: 100px;
+  }
+  .subtitle {
+    display: flex;
+    font-size: 24px;
+    text-align: center;
+  }
+  .down {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .down_2 {
+    display: flex;
+    align-content: center;
     justify-content: center;
   }
 }

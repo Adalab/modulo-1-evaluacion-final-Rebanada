@@ -1,14 +1,24 @@
-.footer{
+.footer {
   background-color: #304268;
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
+  padding: 50px;
+}
 
+.up_2 {
+  width: 15px;
+  height: 15px;
+  padding: 18px 12px 15.3px 13px;
+  border-radius: 60%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .list_item1 {
-  width: 73px;
-  height: 150px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.88;
@@ -17,8 +27,6 @@
 }
 
 .list_item2 {
-  width: 73px;
-  height: 150px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.88;
@@ -27,8 +35,6 @@
 }
 
 .we-components {
-  width: 290px;
-  height: 30px;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: white;
@@ -43,32 +49,11 @@
   font-family: "Roboto", sans-serif;
 }
 
-@media screen and (min-width:768px) { 
-.footer{
-  width: 768px;
-  height: 240px;
-  display: flex;
-  justify-content: space-around;
-  align-content: center;
-
+@media screen and (min-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px 45px;
+  }
 }
-.we-components{
-  text-align: left;
- 
-  
-}
-.year{
-  text-align:left;
-  
-}
-.five_items{
-text-align: center;
-  
-}
-.three_items{
-  text-align:right;
-  
-  
-}
-}
-
