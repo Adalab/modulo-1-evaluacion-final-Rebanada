@@ -51,9 +51,13 @@
 
 @media screen and (min-width: 768px) {
   .footer {
+ display: flex;
+justify-content: space-around;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .footer {
     display: flex;
-    justify-content: space-around;
-    text-align: center;
     padding: 30px 45px;
   }
 }
